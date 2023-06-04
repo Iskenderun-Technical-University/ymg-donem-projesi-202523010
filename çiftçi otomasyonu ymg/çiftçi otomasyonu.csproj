@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11A3D3B6-342A-4E07-96E4-96317C2BBF67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>çiftçi_otomasyonu</RootNamespace>
+    <AssemblyName>çiftçi otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="işlemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlemler.Designer.cs">
+      <DependentUpon>işlemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="işlemler_sorgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlemler_sorgu.Designer.cs">
+      <DependentUpon>işlemler_sorgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="işlemler_üye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlemler_üye.Designer.cs">
+      <DependentUpon>işlemler_üye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yönetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yönetici.Designer.cs">
+      <DependentUpon>yönetici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loding.Designer.cs">
+      <DependentUpon>loding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="silme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="silme.Designer.cs">
+      <DependentUpon>silme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ekleme.Designer.cs">
+      <DependentUpon>ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ürünler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ürünler.Designer.cs">
+      <DependentUpon>ürünler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ürün_sorgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ürün_sorgu.Designer.cs">
+      <DependentUpon>ürün_sorgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="şifredeğiştirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="şifredeğiştirme.Designer.cs">
+      <DependentUpon>şifredeğiştirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="veritabanı.cs" />
+    <Compile Include="çiftçi_otomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>çiftçi_otomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="işlemler.resx">
+      <DependentUpon>işlemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlemler_sorgu.resx">
+      <DependentUpon>işlemler_sorgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlemler_üye.resx">
+      <DependentUpon>işlemler_üye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yönetici.resx">
+      <DependentUpon>yönetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loding.resx">
+      <DependentUpon>loding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="silme.resx">
+      <DependentUpon>silme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ekleme.resx">
+      <DependentUpon>ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ürünler.resx">
+      <DependentUpon>ürünler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ürün_sorgu.resx">
+      <DependentUpon>ürün_sorgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="şifredeğiştirme.resx">
+      <DependentUpon>şifredeğiştirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="çiftçi_otomasyonuDataSet.xsc">
+      <DependentUpon>çiftçi_otomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="çiftçi_otomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>çiftçi_otomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="çiftçi_otomasyonuDataSet.xss">
+      <DependentUpon>çiftçi_otomasyonuDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e683bc76-3817-43bd-a7df-d397dcf17522.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e683bc76-3817-43bd-a7df-d397dcf17522-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

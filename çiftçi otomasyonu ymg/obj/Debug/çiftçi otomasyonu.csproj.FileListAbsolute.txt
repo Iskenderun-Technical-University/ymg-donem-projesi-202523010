@@ -1,0 +1,19 @@
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\bin\Debug\çiftçi otomasyonu.exe.config
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\bin\Debug\çiftçi otomasyonu.exe
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\bin\Debug\çiftçi otomasyonu.pdb
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.Properties.Resources.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi otomasyonu.csproj.GenerateResource.cache
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi otomasyonu.exe
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi otomasyonu.pdb
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.silme.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.ekleme.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.yönetici.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.şifredeğiştirme.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi otomasyonu.csprojAssemblyReference.cache
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.loding.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.ürünler.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.işlemler.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.işlemler_üye.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.ürün_sorgu.resources
+C:\Users\burkr\source\repos\çiftçi otomasyonu\çiftçi otomasyonu\obj\Debug\çiftçi_otomasyonu.işlemler_sorgu.resources
